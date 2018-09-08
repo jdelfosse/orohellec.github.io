@@ -1,0 +1,82 @@
+.mfw
+{
+	color: #00aa88;
+}
+
+@media all and (max-width: 750px)
+{
+	#container
+	{
+		width: auto !important;
+		white-space: normal;
+	}
+}
+
+h1, h2, p
+{
+	color: #454545;
+}
+
+p, li
+{
+	font-size: 18px;
+}
+
+a:visited
+{
+	color: #aa3300;
+}
+
+a, a:focus, a:hover, a:active
+{
+	color: #0077aa;
+}
+
+figure
+{
+	float: left;
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 1em;
+	margin-left: 0px;
+	margin-right: 25px;
+}
+
+#wrong
+{
+	color: #aa3300;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.dessous
+{
+	clear: both;
+}
+
+
+#container
+{
+	width: 700px;
+	margin: auto;
+	text-align:justify;
+}
+
+.smallPolice
+{
+	font-size: 8px;
+}
+
+#catLegend
+{
+	font-size: 12px;
+}
+
+#blue
+{
+	color: blue;
+}
+
+#purple
+{
+	color: purple;
+}
