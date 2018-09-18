@@ -7,23 +7,44 @@ setTimeout(function()
 	};
 }, 3000);
 
-
 // document.body.style.backgroundColor = "white";
 
-do {
-	document.getElementById("wtf").onclick = function()
+let wtf = document.getElementById("wtf");
+
+let paragraph = document.getElementsByTagName('p');
+let allH2 = document.getElementsByTagName('h2');
+let mainTitle = document.getElementsByTagName('h1');
+let puce = document.getElementsByTagName('li');
+let allLinks = document.getElementsByTagName('a');
+
+	
+	wtf.onclick = function ()
 	{
-		let i = 1;
-		document.body.style.backgroundColor = "purple";
-		document.getElementById("wtf").innerHTML = "go back to normal";
-	}
-		document.getElementById("wtf").onclick = function()
+		document.body.style.backgroundColor = "#c953c7";
+		wtf.innerHTML = "go back to normal";
+
+		for (let i = 0; i < paragraph.length; i++)
 		{
-			document.body.style.backgroundColor = "white";
-			document.getElementById("wtf").innerHTML = "take some drugs, then, click me again. You'll enjoy it better Mother Fucker";
-			i = 0;
+			paragraph[i].style.color = "#38ceff";
 		}
-} while(i === 0);
+		mainTitle[0].style.color = "#2eff55";
+		for (let i = 0; i < allH2.length; i++)
+		{
+			allH2[i].style.color = "#2eff55";
+		}
+		for (let i = 0; i < puce.length; i++)
+		{
+			puce[i].style.color = "yellow";
+		}
+		for (let i = 0; i < allLinks.length; i++)
+		{
+			allLinks[i].style.color = "#ff8300"
+		}
+	}
+
+//	wtf.onclik = function ()
+//	{
+//		location.reload();
+//	}
 
 
-//	document.getElementById("container").style.backgroundColor = "purple";
