@@ -21,16 +21,19 @@ let allLinks = document.getElementsByTagName('a');
 	wtf.onclick = function ()
 	{
 		document.body.style.backgroundColor = "#c953c7";
-		wtf.innerHTML = "go back to normal";
+		wtf.innerHTML = "Normal Mode";
 
 		for (let i = 0; i < paragraph.length; i++)
 		{
 			paragraph[i].style.color = "#38ceff";
+			paragraph[i].style.fontFamily = "papyrus"
 		}
 		mainTitle[0].style.color = "#2eff55";
+		mainTitle[0].style.fontFamily = "Comic Sans";
 		for (let i = 0; i < allH2.length; i++)
 		{
 			allH2[i].style.color = "#2eff55";
+			allH2[i].style.fontFamily = "Comic Sans";
 		}
 		for (let i = 0; i < puce.length; i++)
 		{
@@ -40,11 +43,8 @@ let allLinks = document.getElementsByTagName('a');
 		{
 			allLinks[i].style.color = "#ff8300"
 		}
+		wtf.onclick = function ()
+		{
+			location.reload();
+		}
 	}
-
-//	wtf.onclik = function ()
-//	{
-//		location.reload();
-//	}
-
-
