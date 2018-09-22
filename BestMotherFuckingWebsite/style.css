@@ -14,7 +14,7 @@
 
 h1, h2, p, li
 {
-/*	color: #454545;*/
+	color: #454545;
 }
 
 p, li
@@ -58,7 +58,7 @@ figure
 {
 	width: 700px;
 	margin: auto;
-	text-align:justify;
+	text-align: justify;
 }
 
 .smallPolice
